@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    width: 1300px;
+    height: 100vh;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.logo-gmail {
+    width: 200px;
+    height: auto;
+}
+
+.gmail-text {
+    font-size: 28px;
+    color: white;
+}
+
+hr {
+    margin-top: 10px;
+    color: white;
+}
+
+nav, main, footer {
+
+    margin-top: 10px;
+}
+
+.email-unread {
+    margin-top: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+#number-unread {
+    background-color: orange;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.email{
+    background-color: lightgrey;
+
+}
+
+.oggetto-email, .corpo-email {
+    display: inline-block;
+}
+
+.oggetto-email{
+    width: 40%;
+}
+
+.corpo-email {
+    width: 58%;
+}
+
+.email-white {
+    background-color: white;
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+
+}
+
+#greetings {
+    font-style: italic;
+}
